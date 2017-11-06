@@ -21,7 +21,7 @@ def second_supply_for_fourth_of_july(holiday_supplies)
   holiday_supplies.each do |season, holiday|
     holiday.each do |attribute, value|
       if attribute == :summer
-        value.each do |i|
+        value.each do |i[1]|
           puts "#{i}"
         end
       end
