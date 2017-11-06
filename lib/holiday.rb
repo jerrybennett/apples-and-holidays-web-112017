@@ -57,7 +57,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.each do |season, holiday|
     if season == :winter
       holiday.each do |day, supplies|
-        supplies.each do |a, i|
+        supplies.each do |i|
           arr = []
           arr << i
           return arr
