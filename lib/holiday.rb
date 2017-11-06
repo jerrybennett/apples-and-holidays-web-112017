@@ -19,8 +19,8 @@ def second_supply_for_fourth_of_july(holiday_hash)
   # }
   # return the second element in the 4th of July array
   holiday_hash.each do |season, holiday|
-    holiday.each do |i|
-      if i == "summer"
+    holiday.each do |attribute, value|
+      if attribute == :summer
         return i[1]
       end
     end
