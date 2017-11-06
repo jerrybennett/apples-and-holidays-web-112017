@@ -95,6 +95,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |day, supplies|
       if supplies == "BBQ"
         day_key << day
+      end
     end
   end
   return day_key
