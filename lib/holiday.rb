@@ -23,7 +23,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
       if attribute == :summer
         value.each do |i|
           return i[1]
-          binding pry
+          binding.pry
         end
       end
     end
