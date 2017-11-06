@@ -20,10 +20,11 @@ def second_supply_for_fourth_of_july(holiday_supplies)
   # return the second element in the 4th of July array
   holiday_supplies.each do |season, holiday|
     holiday.each do |attribute, value|
+      if value == :fourth_of_july
         value.each do |day, needs|
-          if day == :fourth_of_july
             puts "#{needs[1]}"
           end
+        end
       end
     end
   end
