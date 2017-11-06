@@ -93,9 +93,10 @@ def all_holidays_with_bbq(holiday_hash)
   day_key = []
   holiday_hash.each do |season, holiday|
     holiday.each do |day, supplies|
-      supplies.each do
-      if supplies == "BBQ"
-        day_key << day
+      supplies.each do |i|
+        if i == "BBQ"
+          day_key << day
+        end
       end
     end
   end
