@@ -81,9 +81,9 @@ def all_supplies_in_holidays(holiday_hash)
       day.to_s.split("_").each do |word|
         word.capitalize!
         if word.length == 1
-          word
+          return word
         else
-          word.join(" ")
+          return word.join(" ")
       end
       puts "  #{day}: #{supplies.join(", ").chomp}"
     end
