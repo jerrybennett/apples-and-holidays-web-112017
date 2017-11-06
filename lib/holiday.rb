@@ -84,6 +84,7 @@ def all_supplies_in_holidays(holiday_hash)
           return word
         else
           return word.join(" ")
+        end
       end
       puts "  #{day}: #{supplies.join(", ").chomp}"
     end
