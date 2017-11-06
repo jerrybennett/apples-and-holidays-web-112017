@@ -18,8 +18,10 @@ def second_supply_for_fourth_of_july(holiday_hash)
   #   }
   # }
   # return the second element in the 4th of July array
-  holiday_hash(season, holiday)
-  
+  holiday_hash.each do |season, holiday|
+    
+  end
+
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
