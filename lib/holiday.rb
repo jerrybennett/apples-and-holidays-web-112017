@@ -22,7 +22,6 @@ def second_supply_for_fourth_of_july(holiday_hash)
     holiday.each do |attribute, value|
       if attribute == :summer
         return value[1]
-        end
       end
     end
   end
