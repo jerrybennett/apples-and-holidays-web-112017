@@ -22,7 +22,8 @@ def second_supply_for_fourth_of_july(holiday_supplies)
     holiday.each do |attribute, value|
         value.each do |day, needs|
           if day == :fourth_of_july
-          puts "#{needs[1]}"
+            puts "#{needs[1]}"
+          end
       end
     end
   end
